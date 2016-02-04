@@ -1,0 +1,10 @@
+simple_client:
+  build: client/.
+  links:
+    - simple_server
+  environment:
+    SERVER_HOST: simple_server
+simple_server:
+  build: server/.
+  expose:
+   - "8888"
