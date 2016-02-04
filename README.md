@@ -1,6 +1,6 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
+This project contains two small application that are available as docker images. They are used to illustrate the basic setup of networking between containers.
 
 ## Docker Commands
 
