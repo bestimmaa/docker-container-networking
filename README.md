@@ -7,8 +7,8 @@ This project contains two small application that are available as docker images.
 ### Docker-Compose
 In root dir
 
-docker-compose build
-docker-compose up
+* docker-compose build
+* docker-compose up
 
 ### General
 
