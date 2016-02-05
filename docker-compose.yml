@@ -1,10 +1,13 @@
 simple_client:
   build: client/.
+# links will create the networking and the env variables name_PORT_num_protocol_ADDR and name_PORT_num_protocol_PORT
   links:
     - simple_server
+# enviroment allows for setting enviroment variables...     
   environment:
-    SERVER_HOST: simple_server
+    FOO: "BAR"
 simple_server:
   build: server/.
+# expose ports to linked containers but no the host machine  
   expose:
    - "8888"
